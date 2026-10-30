@@ -15,3 +15,9 @@ body{background:#fdfcff}.site-header{background:#fdfcfff2;border-color:#e8e2f1}.
 /* A vector DNA emblem replaces the hero portrait; the portrait appears only in About. */
 .intro-person img.dna-emblem{width:72px;height:72px;flex:0 0 72px;object-fit:contain;border:0;border-radius:0;box-shadow:none}
 @media(max-width:760px){.intro-person img.dna-emblem{width:65px;height:65px;flex-basis:65px}}
+
+/* The tenth service spans the final row on desktop and mobile. */
+.skill-node[data-service=medicalimaging]{--card-accent:#29759a;--card-start:#398db4;--card-end:#235d86;--card-base:#1c4d70;grid-column:1/-1;min-height:124px;padding-right:98px}
+.skill-node[data-service=medicalimaging] strong{font-size:18px;margin-top:16px}
+.skill-node[data-service=medicalimaging] .service-icon{width:72px;height:72px;top:22px;right:18px}
+@media(max-width:370px){.skill-node[data-service=medicalimaging]{padding-right:84px}.skill-node[data-service=medicalimaging] strong{font-size:16px}.skill-node[data-service=medicalimaging] .service-icon{width:60px;height:60px;right:14px}}
