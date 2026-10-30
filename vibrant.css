@@ -11,3 +11,7 @@ body{background:#fdfcff}.site-header{background:#fdfcfff2;border-color:#e8e2f1}.
 .about-portrait img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 32%;border-radius:35px 6px 6px 6px;box-shadow:6px 6px 0 #e3d9ef}
 .about-portrait figcaption{margin-top:15px;line-height:1.55}
 @media(max-width:760px){.about-portrait{width:160px;margin-top:22px}.about-portrait img{border-top-left-radius:30px}}
+
+/* A vector DNA emblem replaces the hero portrait; the portrait appears only in About. */
+.intro-person img.dna-emblem{width:72px;height:72px;flex:0 0 72px;object-fit:contain;border:0;border-radius:0;box-shadow:none}
+@media(max-width:760px){.intro-person img.dna-emblem{width:65px;height:65px;flex-basis:65px}}

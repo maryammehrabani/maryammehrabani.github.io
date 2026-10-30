@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144" fill="none">
+<title>DNA double helix</title>
+<defs>
+ <linearGradient id="bg" x1="20" y1="10" x2="124" y2="138" gradientUnits="userSpaceOnUse"><stop stop-color="#f3edff"/><stop offset="1" stop-color="#e8f7fb"/></linearGradient>
+ <linearGradient id="purple" x1="45" y1="20" x2="97" y2="124" gradientUnits="userSpaceOnUse"><stop stop-color="#9471e4"/><stop offset="1" stop-color="#5542b4"/></linearGradient>
+ <linearGradient id="teal" x1="97" y1="20" x2="45" y2="124" gradientUnits="userSpaceOnUse"><stop stop-color="#61c5ca"/><stop offset="1" stop-color="#237e9d"/></linearGradient>
+</defs>
+<circle cx="72" cy="72" r="69" fill="url(#bg)" stroke="#e2dbee"/>
+<circle cx="72" cy="72" r="59" stroke="white" stroke-opacity=".85"/>
+<g transform="rotate(29 72 72)" stroke-linecap="round">
+ <g stroke-width="3.4" opacity=".72">
+  <path d="M48 23h48M53 33h38M63 43h18M63 61h18M53 71h38M48 81h48M50 91h44M58 101h28M66 111h12M60 121h24" stroke="#9c86d0"/>
+  <path d="M72 23h24M72 33h19M72 43h9M72 61h9M72 71h19M72 81h24M72 91h22M72 101h14M72 111h6M72 121h12" stroke="#57b6c1"/>
+ </g>
+ <path d="M47 20C47 43 97 49 97 81S47 107 47 124" stroke="url(#purple)" stroke-width="7"/>
+ <path d="M97 20C97 43 47 49 47 81S97 107 97 124" stroke="url(#teal)" stroke-width="7"/>
+ <path d="M48 21C48 43 98 49 98 81" stroke="white" stroke-opacity=".32" stroke-width="1.4"/>
+ <path d="M96 21C96 43 46 49 46 81" stroke="white" stroke-opacity=".42" stroke-width="1.4"/>
+</g>
+<g fill="#a58ad8"><circle cx="26" cy="78" r="2"/><circle cx="109" cy="31" r="2"/></g>
+<g stroke="#72bac8" stroke-linecap="round"><path d="M112 95v8m-4-4h8M29 36v6m-3-3h6"/></g>
+</svg>
